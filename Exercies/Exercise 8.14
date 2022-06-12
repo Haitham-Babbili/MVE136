@@ -1,0 +1,15 @@
+question 1, exam Monday 5 January 2015
+(Solution):
+when you take the expectation
+n1= n
+n2= m
+E[Wi*Wj] = E [ (sum wn)(sum wm)]    ------ (do expand)
+                = E [(w1 + w2 + . . . + wn)(w1 + w2 + . . . + wm)]
+if m<n
+                = E[W1W1] + E[W2W2] + . .  . +E[WmWm]  = m var(W)
+if n<m
+
+                 = E[W1W1] + E[W2W2] + . .  . +E[WnWn]  = n var(W)
+
+
+so in general,    = min(m,n) var(w)
